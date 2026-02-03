@@ -16,6 +16,20 @@ Connect AI agents to [Meshtastic](https://meshtastic.org) LoRa mesh networks. Se
 - 🔔 **Alerts & digests** for interesting messages
 - 🛠️ **Framework-agnostic** core, AI-native design
 
+## What is LoRa Mesh?
+
+![LoRa Mesh Network](assets/lora-mesh-network.jpg)
+
+**LoRa** (Long Range) is a radio protocol designed for low-power, long-distance communication. **Meshtastic** turns LoRa radios into a decentralized mesh network:
+
+- **No infrastructure needed** — nodes talk directly to each other via radio waves
+- **Multi-hop routing** — messages bounce through intermediate nodes to extend range
+- **Multiple interfaces** — connect via Bluetooth, WiFi, USB, or serial
+- **Kilometers of range** — typical 5-10km line-of-sight, 1-3km urban
+- **License-free** — operates on ISM bands (868 MHz EU / 915 MHz US)
+
+Each node is both a radio and a router. Your AI connects to a local node (via USB in this skill), which relays messages across the mesh. No cell towers, no internet, no accounts — just radio waves and cryptography.
+
 ## Architecture
 
 ```
