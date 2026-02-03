@@ -1,0 +1,14 @@
+[Unit]
+Description=Meshtastic MQTT Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USER
+WorkingDirectory=/path/to/meshtastic-skill
+ExecStart=/path/to/meshtastic-skill/venv/bin/python3 /path/to/meshtastic-skill/mqtt_bridge.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

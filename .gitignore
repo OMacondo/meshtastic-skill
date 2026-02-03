@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# Logs & runtime data - NEVER COMMIT
+*.log
+*.txt
+*.json
+!/package.json
+!/references/*.json
+
+# Temp files
+/tmp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any JS tooling)
+node_modules/
+
+# Secrets & local config
+.env
+.env.*
+secrets.*
+*_secret*
+*_private*
+
+# Specific runtime files that should never be committed
+mesh_messages.txt
+mesh_nodes.json
+mesh_monitor_state.json
+mesh_last_check.txt
