@@ -4,7 +4,7 @@ OpenClaw Meshtastic Off-grid radio skill for sovereign AI. LoRa mesh comms via M
 
 ![Hardware Setup](assets/hardware-setup.jpg)
 
-*Raspberry Pi 5 + RAK4631 Meshtastic node — the sovereign radio stack*
+*Raspberry Pi 5 running OpenClaw + meshtastic-skill, connected to RAK4631 Meshtastic node — the sovereign radio stack*
 
 ## Overview
 
