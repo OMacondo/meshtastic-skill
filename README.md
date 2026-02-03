@@ -1,6 +1,6 @@
 # meshtastic-skill
 
-**Off-grid radio for sovereign AI.** LoRa mesh comms via Meshtastic — no internet required.
+OpenClaw Meshtastic Off-grid radio skill for sovereign AI. LoRa mesh comms via Meshtastic — no internet required.
 
 ![Hardware Setup](assets/hardware-setup.jpg)
 
